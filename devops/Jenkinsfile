@@ -4,7 +4,7 @@ node {
 
      
   stage('Git-Checkout') {
-   git 'https://github.com/chakri1998/ansiblesampleuserpage.git'
+   git 'https://github.com/chakri1998/devops.git'
   }
     
  def project_path="devops/"
