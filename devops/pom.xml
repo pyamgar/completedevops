@@ -44,7 +44,7 @@
 			<dependency>
 			<groupId>org.apache.tomcat</groupId>
 			<artifactId>tomcat-jasper</artifactId>
-			<version>9.0.10</version>
+			<version>8.5.50</version>
 		</dependency>
 		<!-- JSTL tag lib -->
 		<dependency>
