@@ -17,7 +17,7 @@
     command: "tar zxf /opt/SP/apps/tomcat.tar.gz  -C /opt/SP/apps/tomcat --strip-components 1"
    
   - name: Copy gomeoflife Project War Files
-    copy: src=target/gameoflife.war dest=/opt/SP/apps/tomcat/webapps/ROOT.war mode=0644
+    copy: src=target/devops-0.0.1-SNAPSHOT.war dest=/opt/SP/apps/tomcat/webapps/ROOT.war mode=0644
     notify: 
     - Restart Tomcat
     
