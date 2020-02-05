@@ -6,7 +6,9 @@ node {
   stage('Git-Checkout') {
    git 'https://github.com/chakri1998/devops.git'
   }
-    
+  stage('Input to continue forther') {
+   input('git checkout done Do you want to forther proceed?')  
+  }
  def project_path="devops/"
  
  dir(project_path) {
@@ -61,11 +63,16 @@ node {
     server.download(downloadSpec)
    
 }
-
+  stage('Input for deploy in test server') {  
+   input('Do you want to test server proceed?')      
+        }
    stage('Docker-Stage-Deployment') {
    sh label: '', script: 'docker-compose up -d --build'
   }
- 
+	 
+ stage('Input for deploy in production server') {            
+   input('Do you want to deploy into production server proceed?')
+        }
   stage('Geting Ready For Ansible') {
   sh label: 'Jenkins', script: "echo '<h1> TASK BUILD ID: ${env.BUILD_DISPLAY_NAME}</h1>' > index.html"
 }  
