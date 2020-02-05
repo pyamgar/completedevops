@@ -1,0 +1,3 @@
+com\mindtree\devops\controller\DevopsController.class
+com\mindtree\devops\DevopsApplication.class
+com\mindtree\devops\ServletInitializer.class
