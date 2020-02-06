@@ -16,27 +16,27 @@
 
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
   <!-- Brand/logo -->
-  <a class="navbar-brand" href="#">
+  <a class="navbar-brand" href="/">
     <img src="https://miro.medium.com/max/3964/1*AwvDJDfErlD34ox2QpwGoA.png" alt="logo" style="width:40px;">
   </a>
   
   <!-- Links -->
   <ul class="navbar-nav">
     <li class="nav-item">
-      <a class="nav-link" href="#">Link 1</a>
+      <a class="nav-link" href="devops">DevOps</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#">Link 2</a>
+      <a class="nav-link" href="tools">Tools</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#">Link 3</a>
+      <a class="nav-link" href="developer">Developer</a>
     </li>
   </ul>
 </nav>
 
 <div class="container-fluid">
-  <h3>Brand / Logo</h3>
-  <p>When using the .navbar-brand class on images, Bootstrap 4 will automatically style the image to fit the navbar.</p>
+  <h3>I AM DEVARAKONDA CHAKRADHAR</h3>
+  <p>This is the sample website of devops tool which covered in mindtree 301 capstone class room course </p>
 <img src="https://marketplace-cdn.atlassian.com/s/public/devops-hero-1-87966cfbc9c5713ae047551c7b22985c.png" alt="DevOps" style="width:100%">
 </div>
 <div class="footer">
