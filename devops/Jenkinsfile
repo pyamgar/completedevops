@@ -4,7 +4,7 @@ node {
 
      
   stage('Git-Checkout') {
-   git 'https://github.com/chakri1998/devops.git'
+   git 'https://github.com/chakri1998/completedevops.git'
   }
   stage('Input to continue forther') {
    input('git checkout done Do you want to forther proceed?')  
@@ -14,11 +14,11 @@ node {
  dir(project_path) {
     
   stage('Maven-Clean') {
-   sh label: '', script: 'mvn clean'
+   sh label: 'CLEAN', script: 'mvn clean'
   }
     
  stage('Maven-Compile') {
-   sh label: '', script: 'mvn compile'
+   sh label: 'COMPILE', script: 'mvn compile'
   }
   stage('Sonar Analysis'){
         withSonarQubeEnv('SonarQube'){
@@ -27,11 +27,11 @@ node {
         }
   
    stage('Maven-Test') {
-   sh label: '', script: 'mvn test'
+   sh label: 'TEST', script: 'mvn test'
   }
   
    stage('Maven-Package') {
-   sh label: '', script: 'mvn package'
+   sh label: 'PACKAGE', script: 'mvn package'
   }
   
    stage('Archive-Artifacts') {
@@ -67,7 +67,7 @@ node {
    input('Do you want to test server proceed?')      
         }
    stage('Docker-Stage-Deployment') {
-   sh label: '', script: 'docker-compose up -d --build'
+   sh label: 'DOCKER DEPLOYMENT', script: 'docker-compose up -d --build'
   }
 	 
  stage('Input for deploy in production server') {            
