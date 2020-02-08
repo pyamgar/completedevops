@@ -31,7 +31,7 @@ public class DevopsController {
 	public String developer()
 	{
 		 try {
-		        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("src\\main\\resources\\static\\happy.wav").getAbsoluteFile());
+		        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("src/main/resources/static/happy.wav").getAbsoluteFile());
 		        Clip clip = AudioSystem.getClip();
 		        clip.open(audioInputStream);
 		        clip.start();
