@@ -45,7 +45,7 @@
 </nav>
 
 <div id = "cd-photo">
-	<img  src="https://social.mindtree.com/User%20Photos/Profile%20Pictures/M1056276_LThumb.jpg" 
+	<img  src="https://media-exp1.licdn.com/dms/image/C5603AQEDDN7hkXiBBA/profile-displayphoto-shrink_400_400/0?e=1597881600&v=beta&t=vzh9AQiL9oEIaQQVqUzb6Gusjz9_YAQS-j8-vN_XrBk" 
 		alt="logo" style="width:10%;">
 	<div>
 		<b><i>I am Devarakonda Chakradhar</i></b><br>
