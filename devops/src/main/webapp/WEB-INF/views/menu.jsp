@@ -35,7 +35,7 @@
 </nav>
 
 <div class="container-fluid">
-  <h3>I AM DEVARAKONDA CHAKRADHAR</h3>
+  <h3>I AM DEVARAKONDA CHAKRADHAR & DEVARAKONDA SAI HARNATH</h3>
   <p>This is the sample website of devops tool which covered in mindtree 301 capstone class room course, The buldnumber is: <build.number> </p>
 <img src="https://images.ctfassets.net/xi2je6di2mcr/3wYozEIvVbeNPg0gHvXMfL/bc1089ed76ebf0fe0303d0713f5be48e/devops.png" alt="DevOps" style="width:100%">
 </div>
