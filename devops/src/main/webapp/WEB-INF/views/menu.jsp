@@ -40,7 +40,7 @@
 <img src="https://images.ctfassets.net/xi2je6di2mcr/3wYozEIvVbeNPg0gHvXMfL/bc1089ed76ebf0fe0303d0713f5be48e/devops.png" alt="DevOps" style="width:100%">
 </div>
 <div class="footer">
-<p align="center" style="color:red;">&copy; 2019 mindtree.com</p>
+<p align="center" style="color:red;">&copy; 2020 mindtree.com</p>
 </div>
 </body>
 </html>
