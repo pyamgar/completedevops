@@ -37,7 +37,7 @@
 <div class="container-fluid">
   <h3>I AM DEVARAKONDA CHAKRADHAR</h3>
   <p>This is the sample website of devops tool which covered in mindtree 301 capstone class room course </p>
-<img src="https://marketplace-cdn.atlassian.com/s/public/devops-hero-1-87966cfbc9c5713ae047551c7b22985c.png" alt="DevOps" style="width:100%">
+<img src="https://images.ctfassets.net/xi2je6di2mcr/3wYozEIvVbeNPg0gHvXMfL/bc1089ed76ebf0fe0303d0713f5be48e/devops.png" alt="DevOps" style="width:100%">
 </div>
 <div class="footer">
 <p align="center" style="color:red;">&copy; 2019 mindtree.com</p>
